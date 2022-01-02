@@ -4,7 +4,7 @@ package string01;
 
 import java.util.Scanner;
 
-public class str01 {
+public class Str01 {
     public int solution(String str, char t){
         int answer = 0 ;
         str=str.toUpperCase(); // str이 모두 대문자가 된다.
@@ -19,7 +19,7 @@ public class str01 {
 
     }
     public static void main(String[] args){
-        str01 T = new str01();
+        Str01 T = new Str01();
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
         char c = kb.next().charAt(0);
