@@ -22,9 +22,7 @@ public class Str04_1 {
             }
             String tmp= String.valueOf(s);
             answer.add(tmp);
-
         }
-
         return answer;
     }
 
