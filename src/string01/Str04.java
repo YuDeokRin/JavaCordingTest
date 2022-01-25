@@ -6,7 +6,10 @@ import java.util.Scanner;
 public class Str04 {
     public ArrayList<String> solution(int n, String[] str){
         ArrayList<String> answer = new ArrayList<>();
-
+        for (String x : str) {
+            String tmp = new StringBuilder(x).reverse().toString();
+            answer.add(x);
+        }
         return answer;
     }
 
