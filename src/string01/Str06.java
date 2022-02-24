@@ -1,6 +1,5 @@
 package string01;
 
-import sun.applet.Main;
 
 import java.util.Scanner;
 
