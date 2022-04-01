@@ -13,7 +13,6 @@ public class Str03 {
                 m=len;
                 answer=x;
             }
-
         }
         return answer;
     }
