@@ -8,7 +8,7 @@ public class Str04 {
         ArrayList<String> answer = new ArrayList<>();
         for (String x : str) {
             String tmp = new StringBuilder(x).reverse().toString();
-            answer.add(x);
+            answer.add(tmp);
         }
         return answer;
     }
