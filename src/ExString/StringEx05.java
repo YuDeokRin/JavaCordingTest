@@ -1,5 +1,11 @@
 package ExString;
 
+/**
+ * 2022년 4월 4일 : 1회
+ *  중복문자 제거
+ *
+ */
+
 import java.util.Scanner;
 
 public class StringEx05 {

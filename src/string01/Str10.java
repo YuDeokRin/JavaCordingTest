@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Str10 {
     public int[] solution(String s, char t){
         int[] answer = new int[s.length()]; //0 ~ 10번까지 생기는 int형 배열
-        int p = 1000;
+        int p = 1000; // p 는 거리
         for(int i = 0 ; i < s.length(); i++) {
             if (s.charAt(i) == t) {
                 p = 0;

@@ -1,5 +1,11 @@
 package ExString;
 
+/**
+ * 2022년 4월 5일 : 1회
+ * 회문문자열
+ *
+ */
+
 import java.util.Scanner;
 
 public class StringEx07 {

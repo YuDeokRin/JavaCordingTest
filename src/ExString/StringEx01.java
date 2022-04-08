@@ -1,14 +1,15 @@
 package ExString;
 
-import java.util.Scanner;
-
     /**
+     * 2022년 4월 1일 : 1회
+     *
      * 익혀야할 함수
      * 1. 문자열.toUpperCase()  -> 문자열들을 대문자로 바꿔준다.
      * 2. Character.toUpperCase() ->  문자를 대문자로 바꿔준다.
      * 3. char -  charAT(int index) -> 지정된 인덱스의 char 값을 반환한다.
      * 4. String.toCharArray() -> 문자열을 새 문자 배열로 반환합니다.
      */
+import java.util.Scanner;
 
 public class StringEx01 {
 

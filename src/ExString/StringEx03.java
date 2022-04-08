@@ -1,5 +1,10 @@
 package ExString;
 
+/**
+ * 2022년 4월 1일 : 1회
+ *
+ */
+
 import java.util.Scanner;
 
 public class StringEx03 {

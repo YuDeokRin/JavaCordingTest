@@ -1,11 +1,13 @@
 package ExString;
 
 
-import java.util.Scanner;
 
 /**
+ * 2022년 4월 1일 : 1회
+ *
  * 대소문자 변환
  */
+import java.util.Scanner;
 class StringEx02 {
 
     public String solution(String str){
