@@ -5,7 +5,7 @@ package string01;
 
 import java.util.Scanner;
 
-public class Str11 {
+public class Str12 {
 
     public String solution(int n, String s){
         String answer = "";
@@ -19,7 +19,7 @@ public class Str11 {
     }
 
     public static void main(String[] args) {
-        Str11 T = new Str11();
+        Str12 T = new Str12();
         Scanner kb = new Scanner(System.in);
         int n = kb.nextInt();
         String str = kb.next();
