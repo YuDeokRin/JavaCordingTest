@@ -1,6 +1,5 @@
 package Me.ExArray;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 public class Array2 {
     public int solution(int n, int[] arr) {
