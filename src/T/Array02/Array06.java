@@ -1,5 +1,9 @@
 package T.Array02;
 
+/**
+ * 6. 뒤집기 소수
+ */
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
