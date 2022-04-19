@@ -19,7 +19,7 @@ public class Array010 {
                 for (int k = 0; k < 4; k++) { // k 가 4까지인 이유는 방향이 4개이기 때문이다.
                     int nx = i + dx[k];
                     int ny = j + dy[k];
-                    if(nx>=0 && nx<n && ny >= 0 && ny<n &&arr[nx][ny] >= arr[i][j]){
+                    if(nx>=0 && nx<n && ny>=0 && ny<n && arr[nx][ny] >= arr[i][j]){
                         flag = false;
                         break;
                     }
