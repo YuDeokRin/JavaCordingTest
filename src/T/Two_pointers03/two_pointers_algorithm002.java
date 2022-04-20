@@ -14,9 +14,9 @@ class two_pointers_algorithm002 {
             if(a[p1]==b[p2]){
                 answer.add(a[p1++]);
                 p2++;
-            }
-            else if(a[p1]<b[p2]) p1++;
-            else p2++;
+            } else if(a[p1]<b[p2]) {
+                p1++;
+            } else p2++;
         }
         return answer;
     }
