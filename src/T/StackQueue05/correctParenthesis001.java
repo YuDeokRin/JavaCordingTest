@@ -3,7 +3,7 @@ package T.StackQueue05;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class correctParenthesis {
+public class correctParenthesis001 {
     public String solution(String str){
         String answer="YES";
         Stack<Character> stack=new Stack<>();
@@ -19,7 +19,7 @@ public class correctParenthesis {
     }
 
     public static void main(String[] args) {
-        correctParenthesis T = new correctParenthesis();
+        correctParenthesis001 T = new correctParenthesis001();
         Scanner kb = new Scanner(System.in);
         String str=kb.next();
         System.out.println(T.solution(str));
