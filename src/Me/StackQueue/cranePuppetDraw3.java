@@ -3,7 +3,7 @@ package Me.StackQueue;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class cranePuppetDraw {
+public class cranePuppetDraw3 {
     public int solution(int n, int[][] arr, int m, int[] moves) {
         int answer= 0 ;
         Stack<Integer> stack = new Stack<>();
@@ -27,7 +27,7 @@ public class cranePuppetDraw {
     }
 
     public static void main(String[] args) {
-        cranePuppetDraw T = new cranePuppetDraw();
+        cranePuppetDraw3 T = new cranePuppetDraw3();
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[][] arr = new int[n+1][n+1];
