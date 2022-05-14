@@ -1,4 +1,7 @@
 package T.StackQueue05;
+/**
+ * 6.공주 구하기
+ */
 
 import java.util.LinkedList;
 import java.util.Queue;
