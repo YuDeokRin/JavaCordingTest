@@ -1,4 +1,7 @@
 package Programmers;
+/**
+ * Lv1. 완주하지 못한 선수
+ */
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,6 +1,6 @@
 package Programmers;
 /**
- * 핸드폰 번호 가리기
+ * Lv1. 핸드폰 번호 가리기
  *
  */
 
