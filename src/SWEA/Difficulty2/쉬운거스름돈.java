@@ -1,4 +1,4 @@
-package SWEA;
+package SWEA.Difficulty2;
 
 import java.util.Scanner;
 

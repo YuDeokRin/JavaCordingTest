@@ -1,9 +1,9 @@
-package SWEA;
-
+package SWEA.Difficulty1;
 import java.util.Scanner;
 import java.io.FileInputStream;
 
-class 홀수만더하기{
+class 홀수더하기
+{
     public static void main(String args[]) throws Exception{
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -18,7 +18,9 @@ class 홀수만더하기{
             }
             System.out.println("#" + i + " " + num);
         }
+
+
+
     }
 }
-
 

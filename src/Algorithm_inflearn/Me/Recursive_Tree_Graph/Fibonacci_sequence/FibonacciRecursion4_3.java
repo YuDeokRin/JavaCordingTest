@@ -1,9 +1,7 @@
-package Algorithm_inflearn.Me.Recursive_Tree_Graph;
+package Algorithm_inflearn.Me.Recursive_Tree_Graph.Fibonacci_sequence;
 /**
  * 4.피보나치 수열 (재귀함수)
  */
-
-import java.util.Scanner;
 
 public class FibonacciRecursion4_3 {
     static int[] fibo;

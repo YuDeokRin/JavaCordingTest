@@ -1,4 +1,4 @@
-package Algorithm_inflearn.Me.Recursive_Tree_Graph;
+package Algorithm_inflearn.Me.Recursive_Tree_Graph.Fibonacci_sequence;
 
 import java.util.Scanner;
 

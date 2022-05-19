@@ -1,4 +1,7 @@
-package Algorithm_inflearn.Me.Recursive_Tree_Graph;
+package Algorithm_inflearn.Me.Recursive_Tree_Graph.Fibonacci_sequence;
+/**
+ * 많이 느린 피보나치 수열
+ */
 
 import java.util.Scanner;
 

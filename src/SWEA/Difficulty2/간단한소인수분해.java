@@ -1,4 +1,7 @@
-package SWEA;
+package SWEA.Difficulty2;
+/**
+ * 1945. 간단한 소인수 분해
+ */
 
 import java.util.Scanner;
 

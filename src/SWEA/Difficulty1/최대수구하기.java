@@ -1,4 +1,4 @@
-package SWEA;
+package SWEA.Difficulty1;
 
 import java.util.*;
 
