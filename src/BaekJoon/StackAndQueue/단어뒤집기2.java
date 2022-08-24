@@ -1,4 +1,4 @@
-package BaekJoon.Stack19;
+package BaekJoon.StackAndQueue;
 /*
     17413. 단어뒤집기 2
 
@@ -18,7 +18,7 @@ package BaekJoon.Stack19;
     첫째 줄에 문자열 S의 단어를 뒤집어서 출력한다.
 
     -예제 입력 1
-    baekjoon online judge
+    noojkeab enilno egduj
 
     - 예제 출력
     noojkeab enilno egduj
@@ -26,23 +26,23 @@ package BaekJoon.Stack19;
 
  */
 import java.io.*;
-import java.util.Scanner;
 import java.util.Stack;
 
 public class 단어뒤집기2 {
 
     public static void print(BufferedWriter bw, Stack<Character> stack)throws IOException{
-        while (!stack.isEmpty()) {
-            bw.write(stack.pop());
+        while (!stack.isEmpty()) { //비어 있지않으면 - > 참
+            bw.write(stack.pop()); // 비어질 때 까지 pop() -> 출력
         }
     }
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String str = br.readLine();
-        Stack<Character> stack = new Stack<>();
+        String str = br.readLine(); // 입력
+        Stack<Character> stack = new Stack<>(); // 스택 만들기
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-        boolean tag = false;
+        boolean tag = false; // 태그 변수를 줘어서 태그인지 아닌지 확인
+
         for (char ch : str.toCharArray()) {
             if (ch == '<') {
                 print(bw,stack);
@@ -62,6 +62,7 @@ public class 단어뒤집기2 {
                 }
             }
         }
+        print(bw,stack); // 스택이 비어있지 않을 수도있을 경우 때문에 마지막 출력
         bw.flush();
     }
 }
