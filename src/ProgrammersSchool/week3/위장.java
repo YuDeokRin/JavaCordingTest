@@ -1,5 +1,6 @@
 package ProgrammersSchool.week3;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -25,11 +26,28 @@ public class 위장 {
             answer -= 1;
             return answer;
         }
+
+        /*
+            2. Stream으로 구현
+         */
+        public int solution2(String[][] clothes){
+            int answer = Arrays.stream(clothes)
+                    .map(c -> c[1])
+                    .distinct()
+                    .map(type -> (int)Arrays.stream(clothes).filter(c -> c[1].equals(type)).count())
+                    .map(c -> c + 1)
+                    .reduce(1, (c, n) -> c * n);
+
+            return answer - 1;
+        }
     }
+
+
 
     public static void main(String[] args) {
         Solution T = new Solution();
         String[][] str = new String[][]{{"yellow_hat", "headgear"}, {"blue_sunglasses", "eyewear"}, {"green_turban", "headgear"}};
         System.out.println(T.solution(str));
+        System.out.println(T.solution2(str));
     }
 }
